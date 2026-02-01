@@ -19,7 +19,7 @@ spec:
       containers:
       - name: nginx
         # 如果下载慢，可以改成: docker.m.daocloud.io/library/nginx:alpine
-        image: nginx:alpine 
+        image: docker.m.daocloud.io/library/nginx:alpine
         ports:
         - containerPort: 80
 ---
