@@ -6,7 +6,7 @@ metadata:
     app: my-nginx
 spec:
   # --- 测试点：稍后我们会修改这个数字 ---
-  replicas: 3
+  replicas: 5
   # ----------------------------------
   selector:
     matchLabels:
